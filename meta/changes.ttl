@@ -9,6 +9,10 @@
 
 my:project :release my:v_0_01, my:v_0_02, my:v_0_04, my:v_0_06, my:v_0_08, my:v_0_10, my:v_0_12 .
 
+my:v_0_13
+    a           :Version;
+    :revision   "0.13"^^xsd:string.
+
 my:v_0_12
     a           :Version ;
     dc:issued   "2014-09-29"^^xsd:date ;
